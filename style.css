@@ -1,0 +1,85 @@
+  @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Libre+Baskerville:wght@700&display=swap');
+
+
+body, html {
+    /* overflow: hidden; */
+    height: 100%;
+  }
+  
+  .bg {
+    background-image: url("bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  
+  @font-face {
+    font-family: myfont;
+    src: url(happy.ttf);
+  }
+  @font-face {
+    font-family: yourfont;
+    src: url(fut.ttf);
+  }
+  
+  .papa {
+    text-align: center;
+  }
+  
+  .heading {
+    color: #fff;
+    font-family: myfont;
+    font-size: 150px;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  
+  #What {
+    color: #5de1e6;
+  }
+  
+  #if {
+    color: #ffa7e4;
+  }
+  
+  .ques {
+    color: #ffffff;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffc300;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'League Spartan', sans-serif;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    line-height: 29px;
+    font-size: 20px;
+  }
+
+  .ques:hover {
+    transform: scale(1.03);
+    background-color: yellow;
+    color: black;
+    transition: 0.3s ease-in-out;
+    }
+  
+  .q2 {
+    margin-top: 25px;
+    display: block;
+  }
+
+  @media (max-width: 850px) {
+    .heading {
+      font-size: 100px;
+    }
+    .ques {
+      font-size: 17px;
+    }
+    }
