@@ -61,13 +61,13 @@ body, html {
     word-spacing: 2px;
     line-height: 29px;
     font-size: 20px;
+    transition: 0.3s ease-in-out;
   }
 
   .ques:hover {
     transform: scale(1.03);
     background-color: #ffc300;
     color: black;
-    transition: 0.3s ease-in-out;
     }
   
   .q2 {
@@ -83,3 +83,11 @@ body, html {
       font-size: 17px;
     }
     }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: black;
+    }  
