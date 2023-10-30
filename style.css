@@ -34,6 +34,10 @@ body, html {
     font-size: 150px;
     margin: 0;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
   }
   
   #What {
@@ -91,3 +95,41 @@ body, html {
     a:hover{
         color: black;
     }  
+
+    .EveLogo
+    {
+      display: block;
+      width: 40%;
+    }
+
+    .ACM-Logo{
+      display: block;
+      width: 15%
+    }
+
+    .dream{
+      width: 13%;
+      display: block;
+    }
+
+    .last{
+      padding-bottom: 5%;
+    }
+
+    footer{
+      text-align: center;
+      display: block;
+    }
+
+    footer h2{
+      color: white;
+      font-family: yourfont;
+    }
+
+    footer img{
+      width: 22%;
+    }
+
+    .lastt{
+      padding-bottom: 2.5%;
+    }
