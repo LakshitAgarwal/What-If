@@ -133,3 +133,41 @@ body, html {
     .lastt{
       padding-bottom: 2.5%;
     }
+
+    .info{
+      color: #ffffff;
+      width: 80%;
+      text-align: center;
+      margin: 0 auto;
+      font-family: 'League Spartan', sans-serif;
+      letter-spacing: 1.5px;
+      word-spacing: 2px;
+      line-height: 29px;
+      font-size: 20px;
+      padding-bottom: 10px;
+    }
+
+    .infoo{
+      color: #ffffff;
+      width: 80%;
+      text-align: center;
+      margin: 0 auto;
+      font-family: 'League Spartan', sans-serif;
+      letter-spacing: 1.5px;
+      word-spacing: 2px;
+      line-height: 29px;
+      font-size: 20px;
+      padding-bottom: 45px;
+    }
+
+    @media (max-width: 850px) {
+      .info {
+        font-size: 17px;
+        padding-bottom: 13px;
+      }
+      .infoo {
+        font-size: 17px;
+        padding-bottom: 40px;
+      }
+      
+    }
