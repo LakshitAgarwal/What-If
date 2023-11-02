@@ -157,6 +157,32 @@ body, html {
       word-spacing: 2px;
       line-height: 29px;
       font-size: 19px;
+      padding-bottom: 30px;
+    }
+
+    .infooo{
+      color: #ffffff;
+      width: 80%;
+      text-align: left;
+      margin: 0 auto;
+      font-family: 'League Spartan', sans-serif;
+      letter-spacing: 1.5px;
+      word-spacing: 2px;
+      line-height: 29px;
+      font-size: 20px;
+      padding-bottom: 10px;
+    }
+    
+    .infoooo{
+      color: #ffffff;
+      width: 80%;
+      text-align: left;
+      margin: 0 auto;
+      font-family: 'League Spartan', sans-serif;
+      letter-spacing: 1.5px;
+      word-spacing: 2px;
+      line-height: 29px;
+      font-size: 20px;
       padding-bottom: 45px;
     }
 
@@ -167,7 +193,11 @@ body, html {
       }
       .infoo {
         font-size: 17px;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
+      }
+      .infooo {
+        font-size: 17px;
+        /* padding-bottom: 13px; */
       }
       
     }
