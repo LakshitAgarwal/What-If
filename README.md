@@ -1,30 +1,40 @@
 # What If? Event Landing Page
 
-This project is a landing page for the "What If?" event. It provides information about the event, participation guidelines, and links to submission forms for different problem statements.
+This project is a static website serving as the landing page for the "What If?" event. It provides essential information about the event, including participation guidelines, and directs users to submission forms (Google Forms) for various problem statements.
 
 ## Core Features
 
--   **Event Information:** Displays key details about the "What If?" event.
--   **Participation Guidelines:** Outlines the rules and guidelines for participating in the event.
--   **Submission Forms:** Provides direct links to submission forms for various problem statements.
--   **Visually Appealing Design:** Uses a custom stylesheet to create an engaging and informative user experience.
+-   **Informational Hub:** Presents key details regarding the "What If?" event.
+-   **Participation Guidelines:** Outlines the rules and instructions for participating.
+-   **Problem Statement Access:** Provides direct links to Google Forms for submitting solutions to each problem statement.
+-   **Visually Appealing Design:** Utilizes custom styling to create an engaging user experience.
 
 ## Project Structure
 
-The project consists of the following key files:
+```
+.
+├── README.md
+├── index.html
+├── style.css
+├── assets
+│   ├── bg.jpg
+│   ├── acm-logo.png
+│   ├── Event-logo.png
+│   └── Screenshot_2023-10-31_at_1.22.20_AM-removebg-preview.png
+└── fonts
+    ├── happy.ttf
+    └── fut.ttf
+```
 
--   `index.html`: The main HTML file serving as the entry point and user interface for the landing page.
--   `style.css`: The CSS file responsible for the visual styling of the landing page, including fonts, colors, layout, and responsiveness.
+## Technologies Used
+
+-   HTML
+-   CSS
+-   Google Fonts (League Spartan, Libre Baskerville)
 
 ## Setup Instructions
 
-To run this project locally, simply open the `index.html` file in your web browser. No server or complex setup is required.
+To run the landing page locally:
 
 1.  Clone the repository.
-2.  Navigate to the project directory.
-3.  Open `index.html` in your preferred web browser.
-
-## Dependencies
-
--   **Fonts:** The project utilizes the "League Spartan" and "Libre Baskerville" fonts from Google Fonts. The `style.css` file imports these fonts. Additionally, it uses two local fonts (`happy.ttf` and `fut.ttf`) that should be included in the repository for the page to render correctly.
--   **Background Image:** The project uses `bg.jpg` as a background image. Ensure this image is present in the same directory as the `index.html` and `style.css` files, or adjust the path in `style.css` accordingly.
+2.  Open `index.html` in your web browser.
